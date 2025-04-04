@@ -181,7 +181,8 @@
       "name": "Sorties d’observation en nature"
     },
     {
-      "name": "Musique, concerts. Piano, batterie, composition musicale. Musicien dans plusieurs formations dont des comédies musicales"
+      "name": "Musique, concerts",
+      "summary": "Piano, batterie, composition musicale. Musicien dans plusieurs formations dont des comédies musicales"
     }
   ],
   "languages": [
@@ -191,7 +192,7 @@
     },
     {
       "language": "Anglais",
-      "fluency": "lu, compris, écrit et parlé couramment (2 ans dans un milieu anglophone au Danemark puis aux Etats-Unis)"
+      "fluency": "Expérimenté (C1)"
     },
     {
       "language": "Danois",

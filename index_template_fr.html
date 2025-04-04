@@ -121,15 +121,17 @@
             {% endif %}
             {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
             {% if job.highlights %}
-            <ul>
-              {% for highlight in job.highlights %}<li>{{ highlight }}</li>{% endfor %}
+            <ul class="highlight-list">
+              {% for highlight in job.highlights %}
+              <li>{{ highlight }}</li>
+              {% endfor %}
             </ul>
             {% endif %}
             {% if job.images %}
             <div class="gallery main-gallery">
               {% for img in job.images %}
               <figure>
-                <img width="600" height="338" src="{{ img.img_path }}" alt="{{ img.caption }}">
+                <img height="338" src="{{ img.img_path }}" alt="{{ img.caption }}">
                 <figcaption>{{ img.caption }}</figcaption>
               </figure>
               {% endfor %}
@@ -167,8 +169,10 @@
             {% if edu.degrees %}<p>{{ edu.degrees }}</p>{% endif %}
             {% if edu.summary %}<p>{{ edu.summary }}</p>{% endif %}
             {% if edu.highlights %}
-            <ul>
-              {% for highlight in edu.highlights %}<li>{{ highlight }}</li>{% endfor %}
+            <ul class="highlight-list">
+              {% for highlight in edu.highlights %}
+              <li>{{ highlight }}</li>
+              {% endfor %}
             </ul>
             {% endif %}
             {% if edu.images %}
@@ -206,8 +210,10 @@
             </h3>
             {% if project.summary %}<p>{{ project.summary }}</p>{% endif %}
             {% if project.highlights %}
-            <ul>
-              {% for highlight in project.highlights %}<li>{{ highlight }}</li>{% endfor %}
+            <ul class="highlight-list">
+              {% for highlight in project.highlights %}
+              <li>{{ highlight }}</li>
+              {% endfor %}
             </ul>
             {% endif %}
             {% if project.images %}
@@ -272,31 +278,31 @@
       <!-- Sidebar Section -->
       <aside>
         {% if skills %}
-        <section>
+        <section class="skills-section">
           <h2 class="section-heading">Compétences</h2>
-          <ul class="unstyled-list">
-            {% for skill in skills %}
-            <li>
-              <h3>{{ skill.name }}</h3>
-              {% if skill.highlights %}
-              <ul>
-                {% for highlight in skill.highlights %}<li>{{ highlight }}</li>{% endfor %}
-              </ul>
-              {% endif %}
-            </li>
-            {% endfor %}
-          </ul>
+          {% for skill in skills %}
+          <details class="skill-item" open>
+            <summary>{{ skill.name }}</summary>
+            {% if skill.highlights %}
+            <ul class="skill-highlights">
+              {% for highlight in skill.highlights %}
+              <li>{{ highlight }}</li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </details>
+          {% endfor %}
         </section>
         {% endif %}
 
         {% if languages %}
-        <section>
+        <section class="language-section">
           <h2 class="section-heading">Langues</h2>
-          <ul class="unstyled-list">
+          <ul class="language-list">
             {% for lang in languages %}
-            <li>
-              <h3>{{ lang.language }}</h3>
-              <p class="section-label">{{ lang.fluency }}</p>
+            <li class="language-item">
+              <div class="language-name">{{ lang.language }}</div>
+              <div class="language-fluency">{{ lang.fluency }}</div>
             </li>
             {% endfor %}
           </ul>
@@ -307,9 +313,11 @@
         <section>
           <h2 class="section-heading">Intérêts</h2>
           {% for interest in interests %}
-          <section>
-            <h3>{{ interest.name }}</h3>
-            {% if interest.summary %}<p>{{ interest.summary }}</p>{% endif %}
+          <section class="interest-section">
+            <h4 class="interest-name">{{ interest.name }}</h4>
+            {% if interest.summary %}
+            <p class="interest-summary">{{ interest.summary }}</p>
+            {% endif %}
             {% if interest.images %}
             <div class="gallery side-gallery">
               {% for img in interest.images %}
