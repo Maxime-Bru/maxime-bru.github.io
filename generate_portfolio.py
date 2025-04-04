@@ -19,7 +19,8 @@ if "social_links" in data:
 
 # Set up Jinja environment
 env = Environment(loader=FileSystemLoader("."), autoescape=True)
-index_template = env.get_template("index_template.html")
+# index_template = env.get_template("index_template.html")
+index_template = env.get_template("index_template_fr.html")
 resume_template = env.get_template("resume_template.html")
 
 # Render the template with the data

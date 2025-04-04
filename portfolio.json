@@ -1,224 +1,213 @@
 {
-  "name": "Your Name",
-  "label": "Optional Label",
-  "image_path": "img/default-image.png",
+  "name": "Maxime Bru",
+  "label": "Ingénieur/data scientist écologue",
+  "image_path": "img/photo id2.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "maxime.roger.bru@gmail.com",
+    "phone": "07 71 82 31 41",
+    "location": "Lyon, France"
   },
-  "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
+  "summary": "Diplômé ingénieur de l'Ecole Centrale de Lyon (ECL) et de l'Université Technique du Danemark (DTU) en Ingénierie Acoustique en 2017, j'ai travaillé pendant 4+ ans à NEXO en tant qu'Ingénieur R&D en Acoustique/Traitement du Signal dans la conception de systèmes de sonorisation professionnelle. En 2021, mes convictions, passions et ma volonté d'avoir un impact positif m'ont orienté vers le monde de la bioacoustique. Souhaitant mettre mes compétences au service de la protection de la biodiversité, j'ai suivi le M2 d'Ingénierie en Ecologie et Gestion de la Biodiversité (IEGB) à l'Université de Montpellier, en alternance avec la start-up BioPhonia. Pour finir, je suis également un naturaliste amateur, passionné d'onithologie et de sorties en nature.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
-      "label": "Personal Website",
-      "url": "https://sample.com",
-      "svg_path": "img/globe.svg"
-    },
-    {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/maxime-bru-8683a9b9/",
       "svg_path": "img/linkedin.svg"
-    },
-    {
-      "label": "Second Social",
-      "url": "https://sample.com",
-      "svg_path": "img/github.svg"
     }
   ],
   "work_experience": [
     {
-      "company": "Latest Job",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present job and what the position entails",
+      "company": "BioPhonia",
+      "position": "Ingénieur bioacousticien / Data scientist",
+      "url": "https://biophonia.fr/",
+      "start_date": "09/2021",
+      "end_date": "Aujourd'hui",
       "highlights": [
-        "First Duty of Current Job",
-        "Second Duty of Current Job",
-        "Third Duty of Current Job"
-      ]
-    },
-    {
-      "company": "Previous Job",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous job and what that position entailed",
-      "highlights": [
-        "First Duty of Previous Job",
-        "Second Duty of Previous Job",
-        "Third Duty of Previous Job"
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "My First Project",
-      "summary": "Short summary about my first project",
-      "url": "https://sample.com",
-      "highlights": [
-        "First Highlight of Project One",
-        "Second Highlight of Project One",
-        "Third Highlight of Project One"
+        "Etudes écoacoustique/bioacoustique.",
+        "Développement d'outils de machine learning pour le suivi de biodiversité et l'analyse automatique de paysages sonores.",
+        "Déploiement d'enregistreurs acoustiques passifs."
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=1",
-          "caption": "Image Caption 1"
+          "img_path": "img/spectro.png",
+          "caption": "Deep-learning appliqué à la détection d'évènements sonores"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=2",
-          "caption": "Image Caption 2"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=3",
-          "caption": "Image Caption 3"
+          "img_path": "img/déploiement.jpg",
+          "caption": "Déploiement de dispositifs de suivi acoustique"
         }
       ]
     },
     {
-      "title": "My Second Project",
-      "summary": "Short summary about my second project",
-      "url": "https://sample.com",
+      "company": "NEXO",
+      "position": "Ingénieur R&D",
+      "url": "https://www.nexo-sa.com/?lang=fr",
+      "start_date": "03/2017",
+      "end_date": "07/2021",
       "highlights": [
-        "First Highlight of Project Two",
-        "Second Highlight of Project Two",
-        "Third Highlight of Project Two"
+        "Développement de nouveaux produits.",
+        "Design acoustique, mécanique et électronique d’enceintes passives (simulations et mesures)",
+        "Industrialisation",
+        "Conception d’algorithmes de traitement du signal"
       ],
       "images": [
         {
-          "img_path": "https://picsum.photos/600/338?random=4",
-          "caption": "Image Caption 4"
+          "img_path": "img/nexo_balloon.jpg",
+          "caption": "Conception d'un protocole de mesure de directivité 3D d'enceintes"
         },
         {
-          "img_path": "https://picsum.photos/600/338?random=5",
-          "caption": "Image Caption 5"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=6",
-          "caption": "Image Caption 6"
+          "img_path": "img/id84.jpg",
+          "caption": "ID84 : enceinte développée du prototype jusqu'à l'industrialisation"
         }
-      ]
-    }
-  ],
-  "volunteer_experience": [
-    {
-      "organization": "Latest Organization",
-      "position": "Position One",
-      "url": "https://sample.com",
-      "start_date": "01/01/2020",
-      "end_date": "Present",
-      "summary": "Short summary about present volunteer work",
-      "highlights": [
-        "First Duty of Current Organization",
-        "Second Duty of Current Organization",
-        "Third Duty of Current Organization"
-      ]
-    },
-    {
-      "organization": "Previous Organization",
-      "position": "Position Two",
-      "url": "https://sample.com",
-      "start_date": "01/01/2010",
-      "end_date": "01/01/2020",
-      "summary": "Short summary about previous volunteer work",
-      "highlights": [
-        "First Duty of Previous Organization",
-        "Second Duty of Previous Organization",
-        "Third Duty of Previous Organization"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Institution One",
-      "location": "Institution One Location",
-      "url": "https://sample.com",
-      "degrees": [
-        "Master of Science in Computer Science",
-        "Minor in Mathematics"
+      "institution": "Université de Montpellier",
+      "location": "Montpellier",
+      "url": "https://ingenieurs-ecologues.com",
+      "degrees": "Master 2 en Ingénierie en Écologie et Gestion de la Biodiversité",
+      "highlights": [
+        "Parcours en apprentissage avec la startup BioPhonia",
+        "Ecologie théorique et appliquée",
+        "politiques et structures de gestion de la biodiversité",
+        "SIG"
       ],
-      "honors": ["Outstanding Student Award", "Dean's List"],
-      "gpa_cumulative": "3.5",
-      "gpa_major": "4.0",
-      "graduation_date": "01/01/2005"
+      "start_date": "2021",
+      "end_date": "2022"
     },
     {
-      "institution": "Institution Two",
-      "location": "Institution Two Location",
-      "url": "https://sample.com",
-      "degrees": ["Bachelor of Science in Physics"],
-      "honors": ["Scholarship Recipient"],
-      "gpa_cumulative": "3.2",
-      "gpa_major": "3.9",
-      "graduation_date": "01/01/2000"
+      "institution": "Technical University of Denmark (DTU)",
+      "location": "Lyngby, Danemark",
+      "url": "https://www.dtu.dk/english/",
+      "degrees": "Master en Ingénierie Acoustique/Double Diplôme avec l'ECL",
+      "highlights": [
+        "Acoustique environnementale",
+        "Electroacoustique",
+        "Acoustique des salles",
+        "Psychoacoustique",
+        "Traitement du son"
+      ],
+      "start_date": "2015",
+      "end_date": "2017"
+    },
+    {
+      "institution": "Ecole Centrale de Lyon (ECL)",
+      "location": "Ecully, France",
+      "url": "https://www.ec-lyon.fr/",
+      "degrees": "Cursus ingénieur généraliste de l'ECL",
+      "highlights": [
+        "Informatique",
+        "Energétique",
+        "Electronique",
+        "Mécanique",
+        "Physique/chimie",
+        "Economie",
+        "Projets étudiants",
+        "Stages en entreprises"
+      ],
+      "start_date": "2012",
+      "end_date": "2017"
+    },
+    {
+      "institution": "Lycée Jean Perrin",
+      "location": "Marseille, France",
+      "degrees": "Classe Préparatoire aux Grandes Ecoles (cursus PSI)",
+      "start_date": "2010",
+      "end_date": "2012"
+    },
+    {
+      "institution": "Lycée Joliot-Curie",
+      "location": "Aubagne, France",
+      "degrees": "Etudes puis obtention du Bac Scientifique (mention Bien)",
+      "start_date": "2007",
+      "end_date": "2010"
     }
   ],
   "skills": [
     {
-      "name": "My First Skill",
-      "proficiency": 100,
-      "proficiency_label": "Proficiency Level"
+      "name": "Programmation et data science",
+      "highlights": [
+        "Python",
+        "MATLAB (2018 associate certification)",
+        "Machine-learning",
+        "DevOps python",
+        "git/GitHub",
+        "docker",
+        "cloud providesr : AWS, OVH"
+      ]
     },
     {
-      "name": "My Second Skill",
-      "proficiency": 80,
-      "proficiency_label": "Proficiency Level"
+      "name": "Acoustique",
+      "highlights": [
+        "Matériel de mesures",
+        "Enregistreurs autonomes",
+        "Logiciels de simulation"
+      ]
+    },
+    {
+      "name": "Compétences naturalistes",
+      "highlights": [
+        "Ornithologie, reconnaissance acoustique (120+ espèces reconnues)",
+        "Botanique (400+ espèces reconnues)"
+      ]
+    },
+    {
+      "name": "Autres outils",
+      "highlights": [
+        "Solidworks (CAO)",
+        "Raspberry",
+        "LaTeX",
+        "Altium Designer",
+        "Impression 3D",
+        "QGIS"
+      ]
     }
   ],
   "interests": [
     {
-      "name": "My First Hobby",
-      "summary": "Short summary about my first Hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=7",
-          "caption": "Image Caption 7"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=8",
-          "caption": "Image Caption 8"
-        }
-      ]
+      "name": "Randonnées, voyages"
     },
     {
-      "name": "My Second Hobby",
-      "summary": "Short summary about my second hobby",
-      "images": [
-        {
-          "img_path": "https://picsum.photos/600/338?random=9",
-          "caption": "Image Caption 9"
-        },
-        {
-          "img_path": "https://picsum.photos/600/338?random=10",
-          "caption": "Image Caption 10"
-        }
-      ]
+      "name": "Problématiques environnementales",
+      "summary": "Enjeux Climat/Energie, épuisement des ressources naturelles, problématiques liées à l’eau, érosion de la biodiversité, économie. Lectures personnelles d’ouvrages"
+    },
+    {
+      "name": "Langues étrangères"
+    },
+    {
+      "name": "Sorties d’observation en nature"
+    },
+    {
+      "name": "Musique, concerts. Piano, batterie, composition musicale. Musicien dans plusieurs formations dont des comédies musicales"
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Français",
+      "fluency": "Langue maternelle"
     },
     {
-      "language": "American Sign Language",
-      "fluency": "Professional Working Proficiency"
-    }
-  ],
-  "references": [
-    {
-      "name": "Person One",
-      "relation": "Previous Boss",
-      "reference": "Some nice things that Person One said about you, your work ethic, and how you provided value to their team."
+      "language": "Anglais",
+      "fluency": "lu, compris, écrit et parlé couramment (2 ans dans un milieu anglophone au Danemark puis aux Etats-Unis)"
     },
     {
-      "name": "Person Two",
-      "relation": "Previous Coworker",
-      "reference": "More kind things that Person Two said about you, what it was like working with you, and things you've accomplished."
+      "language": "Danois",
+      "fluency": "Intermédiaire"
+    },
+    {
+      "language": "Espagnol",
+      "fluency": "Débutant"
+    },
+    {
+      "language": "Allemand",
+      "fluency": "Débutant"
+    },
+    {
+      "language": "Japonais",
+      "fluency": "Débutant"
     }
   ]
 }
